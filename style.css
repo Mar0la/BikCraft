@@ -103,7 +103,7 @@ li {
 }
 
 .subtitulo {
-  font-size: 4rem;
+  font-size: 7ch;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
@@ -148,3 +148,39 @@ footer {
   padding: 2.5rem;
   box-sizing: border-box;
 }
+
+
+/*----------MEDIA----------*/
+
+@media (max-width: 1000px) {
+
+  *{
+    margin: 0;
+    padding: 0
+  }
+  .introdução {
+    place-items: center;
+    text-align: center;
+  }
+
+  .menu {
+    gap: 4rem;
+  }
+
+  .detalhe {
+    display: none
+  }
+  .subtitulo {
+    font-size: 5ch;
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+
