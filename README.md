@@ -1,3 +1,3 @@
 # PROJETO BikCraft
 
-Projeto com base no curso da Origamid.
+Prmeiro projeto com base no curso da Origamid.
